@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+            integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+            crossorigin="anonymous"
+        />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;900&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="styles.css" />
+        <title>Weather app</title>
+    </head>
+    <body>
+        <div class="wrapper">
+            <!--LEFT MAIN SECTION-->
+            <section class="left">
+                <div class="header">
+                    <h1>THE WEATHER APP</h1>
+                    <h3>know what to expect</h3>
+                </div>
+
+                <!--Search bar-->
+                <section class="search-bar">
+                    <input type="text" id="search-area" />
+                    <button class="search-button" id="btn">Search</button>
+                </section>
+
+                <!--Social media icons-->
+                <div class="social-media">
+                    <ul class="social-media">
+                        <li class="social-item">
+                            <a class="social-link" href="https://facebook.io">
+                                <i class="fab fa-facebook"></i>
+                            </a>
+                        </li>
+                        <li class="social-item">
+                            <a class="social-link" href="https://instagram.com">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li class="social-item">
+                            <a class="social-link" href="https://twitter.com">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li class="social-item">
+                            <a class="social-link" href="https://github.com">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <!--RIGHT CARDS SECTION-->
+            <section class="right">
+                <div class="main-cards">
+                    <article class="card london"></article>
+                    <article class="card gothenburg"></article>
+                    <article class="card new-york"></article>
+                </div>
+            </section>
+        </div>
+
+        <script src="app.js"></script>
+    </body>
+</html>
